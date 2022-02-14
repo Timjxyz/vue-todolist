@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: deepskyblue;
+}
+
+.container{
+    width:60%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main{
+    background-color: rgb(8, 168, 231);
+    padding: 20px;
+    width: 100%;
+}
+
+
+main ul li{
+    padding: 10px;
+    list-style: none;
+}
+
+.fa-solid{
+    float: right;
+}
+
+.clearbox{
+ display: table;
+ clear: both;
+ content: '';
+}
+
+.done{
+    text-decoration: line-through;
+}
